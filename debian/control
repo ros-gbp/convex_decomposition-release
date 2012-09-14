@@ -1,0 +1,16 @@
+Source: ros-groovy-convex-decomposition
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), unzip,ros-groovy-catkin
+Homepage: http://codesuppository.blogspot.com
+Standards-Version: 3.9.2
+
+Package: ros-groovy-convex-decomposition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, unzip
+Description: Convex Decomposition Tool for Robot Model
+ .
+ This stack contains the packages:
+ * convex_decomposition: convex_decomposition contains the Convex Mesh Generation Library, by John Ratcliff. This library is used to auto-generate convex decomposed meshes for collision and visualization of robot links. We are using the latest and the only version available. We plan on deprecating this package once we find a better alternative. The Convex Mesh Generation Library is not provided by any of the major OS package managers, and this version provided here contains patches required for compilation. These patches have not been submitted back as there appears to be no available revision control.
+

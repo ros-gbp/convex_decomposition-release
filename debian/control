@@ -1,0 +1,12 @@
+Source: ros-groovy-convex-decomposition
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), unzip,ros-groovy-catkin
+Homepage: http://codesuppository.blogspot.com
+Standards-Version: 3.9.2
+
+Package: ros-groovy-convex-decomposition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, unzip
+Description: Convex Decomposition Tool for Robot Model

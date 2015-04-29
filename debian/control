@@ -1,0 +1,12 @@
+Source: ros-jade-convex-decomposition
+Section: misc
+Priority: extra
+Maintainer: Bryce Vondervoort <bvondervoort@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, unzip
+Homepage: http://codesuppository.blogspot.com
+Standards-Version: 3.9.2
+
+Package: ros-jade-convex-decomposition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, unzip
+Description: Convex Decomposition Tool for Robot Model

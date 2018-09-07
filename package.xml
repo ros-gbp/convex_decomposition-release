@@ -1,10 +1,10 @@
 <package>
   <name>convex_decomposition</name>
-  <version>0.1.11</version>
+  <version>0.1.12</version>
   <description>Convex Decomposition Tool for Robot Model</description>
   <author email="jratcliff@infiniplex.net">John W. Ratcliff</author>
 
-  <maintainer email="bvondervoort@clearpathrobotics.com">Bryce Vondervoort</maintainer>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
 
   <license>MIT</license>
   <url type="website">http://codesuppository.blogspot.com</url>

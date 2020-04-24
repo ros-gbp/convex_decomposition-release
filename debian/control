@@ -1,0 +1,12 @@
+Source: ros-noetic-convex-decomposition
+Section: misc
+Priority: optional
+Maintainer: ROS Orphaned Package Maintainers <ros-orphaned-packages@googlegroups.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, unzip
+Homepage: http://codesuppository.blogspot.com
+Standards-Version: 3.9.2
+
+Package: ros-noetic-convex-decomposition
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, unzip
+Description: Convex Decomposition Tool for Robot Model

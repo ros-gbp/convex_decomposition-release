@@ -1,3 +1,26 @@
+## convex_decomposition (noetic) - 0.1.12-1
+
+The packages in the `convex_decomposition` repository were released into the `noetic` distro by running `/usr/bin/bloom-release convex_decomposition --rosdistro noetic --rosdistro noetic` on `Fri, 24 Apr 2020 09:06:04 -0000`
+
+The `convex_decomposition` package was released.
+
+Version of package(s) in repository `convex_decomposition`:
+
+- upstream repository: https://github.com/ros/convex_decomposition.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.12-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.16`
+- rosdep version: `0.18.0`
+- rosdistro version: `0.8.0`
+- vcstools version: `0.1.42`
+
+
 ## convex_decomposition (melodic) - 0.1.12-0
 
 The packages in the `convex_decomposition` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -y convex_decomposition --rosdistro melodic --track melodic` on `Fri, 07 Sep 2018 04:56:16 -0000`
